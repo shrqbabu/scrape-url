@@ -1,11 +1,11 @@
 import puppeteer from "puppeteer-core";
 
 const BROWSERLESS_API_KEY = [
-  ...(process.env.BROWSERLESS_API_KEY || "").split(",")
+  ...(process.env.BROWSERLESS_API_KEY || "2VPrd9d9J6Gtzouf167dfe599cda46fb4799f789ef7ed00a5").split(",")
 ].map(k => k.trim()).filter(Boolean);
 
 const ZENROWS_API_KEY = [
-  ...(process.env.ZENROWS_API_KEY || "").split(",")
+  ...(process.env.ZENROWS_API_KEY || "f69ce7f2c0a17dcb2fb4c073f24442893b60328a").split(",")
 ].map(k => k.trim()).filter(Boolean);
 
 const SCRAPINGANT_API_KEY = (process.env.SCRAPINGANT_API_KEY || "").trim();
